@@ -1,0 +1,145 @@
+
+  .page{
+    height: auto;
+    width: 550px;
+    padding: 10px;
+    background-color: rgb(162, 247, 247);
+    border: inset;
+  }
+  h1{
+  font-family:'Times New Roman', Times, serif ;
+  font-size: 40px;
+  border: solid;
+  text-align: center;
+  }
+  
+  .txt{
+  padding-right: 70px;
+  padding-top: 10px;
+  font-size: 22px;
+  margin-bottom: 40px;
+  }
+  
+  .txtbox{
+  width: 300px;
+  height: 30px;
+  margin-bottom: 20px;
+  border-radius: 18px;
+  margin-top: 10px;
+  font-size: 18px;
+  }
+  .txtbox:hover{
+  border-color: rgb(245, 16, 0);
+  }
+  
+  
+  .btn{
+  height: 45px;
+  width: 160px;
+  font-size: 18px;
+  margin-top: 25px;
+  background-color: chartreuse;
+  border-radius: 20px;
+  box-shadow:  2px 1px;
+  margin-left: 180px;
+  /* text-align: center; */
+  }
+  .btn:hover{
+  height: 49px;
+  width: 169px;
+  font-size: 22px;
+  margin-top: 25px;
+  background-color: rgb(208, 255, 0);
+  }
+  .rbtn{
+  height: 19px;
+  width: 19px;
+  font-size: 50px;
+  }
+  
+  #data{
+  width: 400px;
+  margin-left: 10px;
+  padding: 15px;
+  border: 1px solid black;
+  }
+  
+  #data > div{
+  padding: 5px;
+    border-bottom: 1px solid #cccccc;
+  }
+
+
+  .hed{
+    height: 120px;
+    width: 100%;
+    background-color: black;
+    border-bottom: 2px solid rgb(0, 195, 255);
+}
+
+.img{
+    display: inline-block;
+    /* float: left; */
+    
+}
+img{
+    height: 90px;
+    width: 120px;
+    margin-left: 180px;
+    margin-top: 15px;
+}
+
+
+.text{
+    color: rgb(247, 0, 0);
+    display: inline;
+    float: right;
+    margin-top: 25px;
+    margin-right: 250px;
+    font-size: 22px;
+
+}
+
+
+.text ul li{
+    padding-left: 20px;
+    display: inline-block;
+}
+
+.text ul li a{
+    text-decoration: none;
+    color: rgb(7, 255, 222);
+}
+.text ul li a.active{
+    text-decoration: none;
+    color: rgb(168, 255, 7);
+}
+.leftbar{
+    width: 20%;
+    display: inline-block;
+    height:820px;
+    background-color: black;
+    padding-top: 20px;
+    
+}
+
+.leftbar ul li{
+    color: rgb(240, 30, 30);
+    margin: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    
+}
+
+.leftbar ul li a{
+    text-decoration: none;
+    color: blue;
+}
+
+.main{
+    display: inline;
+    float: right;
+    margin-top: 20px;
+    margin-right: 23%;
+
+}

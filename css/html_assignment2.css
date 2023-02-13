@@ -1,0 +1,160 @@
+
+.hed{
+    height: 120px;
+    width: 100%;
+    background-color: black;
+    border-bottom: 2px solid rgb(0, 195, 255);
+}
+
+.img{
+    display: inline-block;
+    /* float: left; */
+    
+}
+img{
+    height: 90px;
+    width: 120px;
+    margin-left: 180px;
+    margin-top: 15px;
+}
+
+
+.text{
+    color: rgb(247, 0, 0);
+    display: inline;
+    float: right;
+    margin-top: 25px;
+    margin-right: 250px;
+    font-size: 22px;
+
+}
+
+
+.text ul li{
+    padding-left: 20px;
+    display: inline-block;
+}
+
+.text ul li a{
+    text-decoration: none;
+    color: rgb(7, 255, 222);
+}
+
+.leftbar{
+    width: 20%;
+    display: inline-block;
+    height:820px;
+    background-color: black;
+    padding-top: 20px;
+    
+}
+
+.leftbar ul li{
+    color: rgb(240, 30, 30);
+    margin: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    
+}
+
+.leftbar ul li a{
+    text-decoration: none;
+    color: blue;
+}
+.text ul li a.active{
+    text-decoration: none;
+    color: rgb(168, 255, 7);
+}
+.main{
+    display: inline;
+    float: right;
+    margin-top: 20px;
+    margin-right: 23%;
+}
+
+.page{
+    height: auto;
+    width: 590px;
+    background-color: white;
+    border: 1px solid gray;
+}
+.page1{
+    height: auto;
+    /* width: 550px; */
+    padding-top: 2px;
+   padding-bottom: 7px;
+
+    background-color: #5b9dd6;
+}
+.page2{
+    height: 30px;
+    margin-top: 10px;
+    background-color: #5b9dd6;
+}
+.hed{
+    flex-wrap: wrap;
+}
+.name{
+    font-size: 40px;
+    color: white;
+    padding-top: 10px;
+    margin-right: 40px;
+    margin-left: 35px;
+    font-weight: bold;
+    float: left;
+}
+
+.add{
+    color: white;
+    font-size: 16px;
+    margin-top:20px;
+    margin-bottom: 10px;
+  
+}
+
+h3{
+    margin-right: 30px;
+    margin-bottom: 7px;
+    margin-top: 10px;
+    text-align: justify;
+    border-bottom: 1px solid;
+    width: 530px;
+}
+
+.clg{
+    margin-right: 32px;
+    margin-left: 30px;
+    text-align: justify;
+}
+
+.ps{
+    margin-right: 31px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.skill{
+    float: left;
+    margin-right: 60px;
+}
+
+.proj{
+    margin-top: 30px;
+    margin-right: 31px;
+    margin-left: 30px;
+    text-align: justify;  
+}
+
+.exp{
+    margin-right: 31px;
+    margin-left: 30px;
+    text-align: justify;
+}
+
+.lng{
+    margin-right: 31px;
+    margin-left: 30px;
+    text-align: justify;
+}
+

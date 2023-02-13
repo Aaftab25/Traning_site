@@ -1,0 +1,71 @@
+@media only screen and (max-width:600px) {
+   .hed{
+    width: 100%;
+    min-height: 60px;
+   }
+   img{
+    max-width: 90px;
+    margin-left: 0;
+   }
+
+   .text ul{
+    margin-right: -500px;
+   }
+}
+ .hed{
+    height: 120px;
+    width: 100%;
+    background-color: black;
+    border-bottom: 2px solid rgb(0, 195, 255);
+}
+
+.img{
+    display: inline;
+    float: left;
+    
+}
+img{
+    height: 90px;
+    width: 120px;
+    margin-left: 90px;
+    margin-top: 15px;
+}
+
+.image{
+    height: 400px;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 450px;
+}
+.text{
+    color: rgb(247, 0, 0);
+    display: inline;
+    float: right;
+    margin-top: 25px;
+    margin-right: 250px;
+    font-size: 22px;
+}
+
+
+.text ul li{
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.text ul li a{
+    text-decoration: none;
+    color: rgb(22, 243, 33);
+}
+.page{
+    height: 670px;
+    width: 75%;
+    background-color: black;
+    margin: auto;
+    margin-top: 20px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 70px;
+}
