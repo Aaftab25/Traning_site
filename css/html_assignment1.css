@@ -143,3 +143,30 @@ img{
     margin-right: 23%;
 
 }
+
+@media only screen and (max-width:900px) {
+    .main{
+        display: grid;
+        grid-template-columns: auto;
+    }
+   .hed{
+    width: 100%;
+    height: auto;
+   }
+   img{
+    width: 90px;
+    margin-left: 0;
+   }
+
+ 
+    .page img{
+    width: 80% ;
+    margin-left: 10% ;
+    padding-left: 0% ;
+   } 
+
+   h1{
+   
+    font-size: 40px;
+    }
+}

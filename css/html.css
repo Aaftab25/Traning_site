@@ -1,8 +1,12 @@
-.hed{
-    height: 120px;
+
+.hed {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
     width: 100%;
     background-color: black;
     border-bottom: 2px solid rgb(0, 195, 255);
+    justify-content: space-between;
 }
 
 .img{
@@ -10,7 +14,7 @@
     /* float: left; */
     
 }
-img{
+.hed img{
     height: 90px;
     width: 120px;
     margin-left: 180px;
@@ -40,7 +44,7 @@ img{
 }
 
 .leftbar{
-    width: 20%;
+    width: auto;
     display: inline-block;
     height:930px;
     background-color: black;
@@ -62,10 +66,13 @@ img{
 }
 
 .main{
-    display: inline;
+    display: block;
     float: right;
+    width: 50%;
     margin-top: 40px;
-    margin-right: 16%;
+    /* margin-right: 10%; */
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -74,3 +81,46 @@ img{
     height: 750px;
 
 }
+
+@media only screen and (max-width: 900px){
+    .continer{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .leftbar{
+        width: 100%;
+        height: auto;
+    }
+    .main{
+        margin-left: 10px;
+    }
+
+
+}
+
+/* @media only screen and (max-width:900px) {
+    .main{
+        display: grid;
+        grid-template-columns: auto;
+    }
+   .hed{
+    width: 100%;
+    height: auto;
+   }
+   img{
+    width: 90px;
+    margin-left: 0;
+   }
+
+ 
+    .page img{
+    width: 80% ;
+    margin-left: 10% ;
+    padding-left: 0% ;
+   } 
+
+   h1{
+   
+    font-size: 40px;
+    }
+} */
