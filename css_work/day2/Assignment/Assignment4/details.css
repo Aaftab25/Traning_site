@@ -1,0 +1,152 @@
+.content{
+    margin-top: 30px;
+}
+
+.leftSide{
+    width: 18%;
+    display: inline-block;
+    line-height: 25px;
+
+}
+.leftSide p{
+    color:white;
+    background-color: black;
+    border-radius: 5px;
+    line-height: 45px;
+    padding-left: 10px;
+    font-size: 17px;
+}
+
+
+.mainSide{
+    display: inline;
+    float: right;
+    width: 60%;
+    height: 500px;
+    margin-right: 10%;
+
+}
+h1{
+    text-align: center;
+    margin: 0;
+    margin-top: 25px;
+    color: white;
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 4px;
+    line-height: 45px;
+}
+
+.text{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid;
+    border-radius: 3px;
+    justify-content: space-around;
+}
+
+.con1{
+    width: 28%;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.hed{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    background-color: black;
+    border-bottom: 2px solid rgb(0, 195, 255);
+    justify-content: space-between;
+}
+
+
+.hed img{
+    height: 90px;
+    width: 120px;
+    padding: 10px;
+}
+
+
+.tet{
+    /* color: rgb(247, 0, 0); */
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    font-size: 22px;
+
+}
+
+
+.text ul li{
+    padding-left: 20px;
+    display: inline-block;
+}
+
+.text ul li a{
+    text-decoration: none;
+    color: rgb(7, 255, 222);
+}
+
+.leftbar{
+    display: flex;
+    flex-wrap: wrap;
+    width: 20%;
+    display: inline-block;
+    height:930px;
+    background-color: black;
+    padding-top: 20px;
+
+}
+
+.leftbar ul li{
+    color: rgb(240, 30, 30);
+    margin: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+
+}
+
+.leftbar ul li a{
+    text-decoration: none;
+    color: blue;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    float: right;
+    margin-top: 40px;
+}
+
+@media only screen and (max-width: 900px){
+    .mainSide   {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .leftbar{
+        width: 100%;
+        height: auto;
+    }
+    .main{
+        margin-left: 10px;
+    }
+
+
+}
+
+@media only screen and (max-width:600px){
+    .leftSide{
+        display: none;
+    }
+
+    .text{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .mainSide{
+        width: 80%;
+    }
+}

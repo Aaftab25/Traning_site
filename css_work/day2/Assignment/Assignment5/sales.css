@@ -1,0 +1,443 @@
+.contentDetail{
+    width: 100%;
+}
+.reg{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #d9d9df;
+    background-color: #efeff1;
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.card{
+    margin-left: 11%;
+}
+
+
+.sig{
+    width: 21%;
+    margin-top: 15px;
+    margin-right: 3%;
+}
+
+.head{
+    width: 100%;
+    height: auto;
+    margin-top: 7px;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+.head div{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    float: left;
+    margin-left: 11%;
+
+}
+
+
+.contact{
+    float: right;
+    color: gray;
+    font-size: 20px;
+    margin-right: 17%;
+    line-height: 5px;
+}
+.contact h1{
+    line-height: 0px;
+}
+.nav ul{
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 80px;
+    
+    
+}
+
+
+.nav ul li{
+    position: static;
+    list-style: none;
+    margin-left: 80px;
+    color: gray;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 17px;
+} 
+.nav a{
+    width: 150px;
+    padding: 10px;
+    background-color: #f38a00;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.regForm{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid gray;
+    background-color: #efeff1;
+}
+
+.headLine{
+  
+    width: 35%;
+    margin-left: 230px;
+}
+.headLine h1{
+    display: block;
+    font-size: 55px;
+}
+.headLine h2{
+    font-size: 30px;
+   
+}
+.headLine p{
+    font-size: 17px;
+    word-spacing: 5px;
+}
+.headLine button{
+    width: 150PX;
+    height: 30px;
+    margin-top: 10px;
+    background-color: #f38a00;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.regDetail{
+    display: flex;
+    flex-wrap: wrap;
+    /* float: right; */
+    width: 470px;
+    height: auto;
+    margin-left: 110px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.txt{
+    padding: 8px;
+    margin-top: 10px;
+    margin-left: 23px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+textarea{
+    margin-left: 20px;
+    border-radius: 10px;
+
+}
+.btn{
+    width: 417px;
+    height: 35px;
+    margin-top: 20px;
+    margin-left: 25px;
+    background-color: #f38a00;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 22PX;
+    font-weight: bold;
+}
+.msgInfo{
+    display: flex;
+    flex-wrap: wrap;
+    width: 99%;
+    height: auto;
+    background-color: #429bdd;
+    padding: 10px;
+}
+
+.msg{
+    width: 46%;
+    margin-left: 220px;
+    word-spacing: 5px;
+    font-size: 17px;
+    color: white;
+}
+
+.msg h1{
+    line-height: 10px;
+    font-size: 40px;
+}
+.msg p{
+    font-size: 19px;
+}
+.box {
+    float: right;
+    width: 23%;
+    margin-top: 60px;
+    margin-left: 203px;
+}
+.box button{
+    width: 180px;
+    padding: 10px;
+    border: 1px solid black;
+    color: #429bdd;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.videImg{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid rgb(197, 185, 185);
+    background-color: #efeff1;
+}
+.machineImg{
+    display: inline;
+    float: left;
+    width: 35%;
+    margin-left: 210px;
+    padding: 30px
+}
+.machineImg img{
+    width: 620px;
+}
+
+.machineInfo{
+    float: right;
+    width: 27%;
+    padding: 10px;
+    color: #555557;
+}
+
+h4{
+    font-size: 30px;
+    /* line-height: 10px; */
+}
+.machineInfo h1{
+    font-size: 64px;
+    line-height: 10px;
+}
+.machineInfo button{
+    width: 150px;
+    padding: 10px;
+    background-color: #f38a00;
+    border: none;
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.imgInfo{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+}
+.image1{
+    display: inline;
+    float: left;
+    margin-left: 19%;
+    width: 356px;
+}
+.image1 img{
+    width: 326px;
+}
+.image1 p{
+    width: 380px;
+    
+}
+
+.image2{
+    display: inline;
+    float: left;
+    width: 356px;
+
+}
+.image2 img{
+    width: 325px;
+}
+.image2 p{
+    width: 380px;
+    
+}
+
+.image3{
+    display: inline;
+    float: left;
+
+}
+.image3 img{
+    width: 340px;
+}
+.image3 p{
+    width: 380px;
+    
+}
+.btnLm{
+    /* display: block; */
+    margin-top: 17px;
+    margin-left: 40%;
+    /* margin-right: auto; */
+    margin-bottom: 20px;
+}
+
+.btnLm button{
+    width: 200px;
+    height: 50px;
+    background-color: #f38a00;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.detailInfo{
+    width: 100%;
+    /* height: 220px; */
+    border: 1px solid #959595;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #959595;
+justify-content: space-around;
+    color: white;
+
+}
+span {
+    display: block;
+    font-weight: bold;    
+}
+
+
+.help ul{
+    /* margin-left: 100px; */
+    list-style: none;
+
+}
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+}
+.company{
+    display: block;
+    margin-left: 50px;
+}
+.footer{
+    text-align: center;
+    background-color: #707070;
+    height: 40px;
+    padding-top: 20px;
+    color: white;
+}
+
+@media only screen and (max-width:770px){
+    .contentDetail{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .reg{
+        width: auto;
+    }
+    .contact{
+        margin-left: 20px;
+    }
+    .nav{
+        margin-right: 20px;
+    }
+    .regDetail{
+        margin-left: 200px;
+    }
+    .msg h1{
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .machineInfo h1{
+        font-size: 40px;
+        line-height: 20px;
+    }
+}
+
+@media only screen and (max-width:1300px){
+    .contentDetail{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .reg{
+        width: auto;
+    }
+    .contact{
+        margin-left: 80px;
+    }
+    .nav{
+        margin-left: 59px;
+    }
+    .nav ul li{
+        margin-left: 29px;
+    }
+    .regDetail{
+        margin-left: 200px;
+    }
+    .headLine{
+  
+        width: 50%;
+        margin-left: 230px;
+    }
+    .msg h1{
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .machineInfo h1{
+        font-size: 40px;
+        line-height: 20px;
+    }
+
+    .box {
+        display: flex;
+        flex-wrap: nowrap;
+        float: right;
+        width: 55%;
+        height: 44px;
+        margin-top: 33px;
+        /* margin-left: 324px; */
+        justify-content: space-around;
+        padding-bottom: 13px;
+    }
+    
+    .msg {
+        width: 55%;
+        
+    }
+    .machineImg{
+        width: 50%;
+        margin-left: 220px;
+    }
+    .machineInfo{
+        width: 50%;
+        margin-left: 30%;
+    }
+    .image1{
+        width: 50%;
+        margin-left: 30%;
+    }
+    .image2{
+        width: 50%;
+        margin-left: 30%;
+    }
+    .image3{
+        width: 50%;
+        margin-left: 30%;
+    }
+    
+}

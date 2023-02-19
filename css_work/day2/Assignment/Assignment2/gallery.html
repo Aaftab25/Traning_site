@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Photo Gallery</title>
+        <style>
+            .container{
+                
+            }
+            .photo{
+                max-width: 15%;
+            }
+            .image1{
+                width: 100%;
+            }
+            .image2{
+                width: 100%;
+            }
+            .image3{
+                width: 100%;
+            }
+            .image4{
+                width: 100%;
+            }
+            .image5{
+                width: 100%;
+            }
+            .image6{
+                width: 100%;
+            }
+            .hed{
+            display: flex;
+            flex-wrap: wrap;
+            height: auto;
+            width: 100%;
+            background-color: black;
+            border-bottom: 2px solid rgb(0, 195, 255);
+            justify-content: space-between;
+        }
+
+
+        .hed img{
+            height: 90px;
+            width: 120px;
+            padding: 10px;
+        }
+
+
+        .text{
+            color: rgb(247, 0, 0);
+            display: inline;
+            float: right;
+            margin-top: 25px;
+            margin-right: 250px;
+            font-size: 22px;
+        
+        }
+
+
+        .text ul li{
+            padding-left: 20px;
+            display: inline-block;
+        }
+
+        .text ul li a{
+            text-decoration: none;
+            color: rgb(7, 255, 222);
+        }
+
+        .leftbar{
+            display: flex;
+            flex-wrap: wrap;
+            width: auto;
+            display: inline-block;
+            height:930px;
+            background-color: black;
+            padding-top: 20px;
+        
+        }
+
+        .leftbar ul li{
+            color: rgb(240, 30, 30);
+            margin: 10px;
+            margin-left: 20px;
+            font-size: 20px;
+        
+        }
+
+        .leftbar ul li a{
+            text-decoration: none;
+            color: blue;
+        }
+        .main{
+            display: flex;
+            width: 73%;
+            float: right;
+            margin-top: 40px;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+                 @media only screen and (max-width:1010px){
+                .continer{
+                display: grid;
+                grid-template-columns: auto;
+            }
+
+                .main{
+                    display: grid;
+                    grid-template-columns: auto auto auto;
+                }
+                .photo{
+                    max-width: 100%;
+                }
+                .leftbar{
+                    width: 100%;
+                    height: auto;
+                }
+                .main{
+                    margin-left: 10px;
+                }
+                
+            }
+            @media only screen and (max-width:800px){
+                .continer{
+                display: grid;
+                grid-template-columns: auto;
+            }
+
+                .mian{
+                    display: grid;
+                    grid-template-columns: auto auto;
+                }
+                .photo{
+                    max-width: 100%;
+                }
+                .leftbar{
+                    width: 100%;
+                    height: auto;
+                }
+                .main{
+                    margin-left: 10px;
+                }
+            }
+            @media only screen and (max-width:500px){
+                .container{
+                    display: grid;
+                    grid-template-columns: auto ;
+                }
+                .photo{
+                    max-width: 100%;
+                }
+                .leftbar{
+                    width: 100%;
+                    height: auto;
+                }
+                .main{
+                    margin-left: 10px;
+                }
+
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="hed">
+                <div class="img">
+                    <img src="/image/radixweb.jpg" alt="Radix Web">
+                </div>
+                <div class="text">
+                    <ul>
+                        <li><a href="/index.html"> Home</a></li>
+                        <li><a href="/html_work/index.html">Html</a></li>
+                        <li><a href="/css_work/index.html">CSS</a></li>
+                        <li><a href="">BootStrap</a></li>
+                        <li><a href="">JavaScript</a></li>
+                        <li><a href="">JQuery</a></li>
+                        <li><a href="">Mini Project</a></li>
+                        <li><a href="">SQL</a></li>
+    
+                    </ul>
+                </div>
+            </div>
+            <div class="leftbar">
+                <ul>
+                    <li>Day 1</li>
+                    <ul>
+                        <li>Assignment</li>
+                        <ul>
+                            <li><a href="/css_work/day1/Assignment/assignment1.html"> Assignment 1 </a></li>
+                            <li><a href="/css_work/day1/Assignment/assignment2.html"> Assignment 2 </a></li>
+                        </ul>
+                        <li>Practice</li>
+                            <ul>
+                                <li><a href="/css_work/day1/Practice/practice1.html"> Practice 1 </a></li>
+                                <li><a href="/css_work/day1/Practice/practice2.html"> Practice 2 </a></li>
+                            </ul>
+                        
+                    </ul>
+                    <li>Day 2</li>
+                    <ul>
+                        <li>Assignment</li>
+                        <ul>
+                            <li><a href="/css_work/day2/Assignment/Assignment1/c_assignment1.html"> Assignment 1 </a></li>
+                            <li><a href="/css_work/day2/Assignment/Assignment2/gallery.html"> Assignment 2 </a></li>
+                            <li><a href="/css_work/day2/Assignment/Assignment3/index.html"> Assignment 3 </a></li>
+                            <li><a href="/css_work/day2/Assignment/Assignment4/details.html"> Assignment 4 </a></li>
+                            <li><a href="/css_work/day2/Assignment/Assignment5/sales_layout.html"> Assignment 5 </a></li>
+                            <li><a href="/css_work/day2/Assignment/Assignment6/index.html"> Assignment 6 </a></li>
+                        </ul>
+                    </ul>
+                </ul>
+            </div>
+    
+            <div class="main">
+                <div class="photo">
+                    <img src="img1.jpeg" class="image1" alt="image1">
+                    <img src="img2.jpeg" class="image2" alt="image2">
+                    <img src="img3.jpeg" class="image3" alt="image3">
+                    <img src="img4.jpeg" class="image4" alt="image4">
+                    <img src="img5.jpg"  class="image5" alt="image5">
+                    <img src="img6.jpeg" class="image6" alt="image6">
+                </div>
+                <div class="photo">
+                    <img src="img3.jpeg" class="image3" alt="image3">
+                    <img src="img5.jpg"  class="image5" alt="image5">
+                    <img src="img6.jpeg" class="image6" alt="image6">
+                    <img src="img2.jpeg" class="image2" alt="image2">
+                    <img src="img4.jpeg" class="image4" alt="image4">
+                    <img src="img1.jpeg" class="image1" alt="image1">
+                </div>
+                <div class="photo">
+                    <img src="img6.jpeg" class="image6" alt="image6">
+                    <img src="img1.jpeg" class="image1" alt="image1">
+                    <img src="img2.jpeg" class="image2" alt="image2">
+                    <img src="img4.jpeg" class="image4" alt="image4">
+                    <img src="img5.jpg"  class="image5" alt="image5">
+                    <img src="img3.jpeg" class="image3" alt="image3">
+                </div>
+                <div class="photo">
+                    <img src="img3.jpeg" class="image3" alt="image3">
+                    <img src="img2.jpeg" class="image2" alt="image2">
+                    <img src="img5.jpg"  class="image5" alt="image5">
+                    <img src="img4.jpeg" class="image4" alt="image4">
+                    <img src="img1.jpeg" class="image1" alt="image1">
+                    <img src="img6.jpeg" class="image6" alt="image6">
+                </div>
+                <div class="photo">
+                    <img src="img5.jpg"  class="image5" alt="image5">
+                    <img src="img1.jpeg" class="image1" alt="image1">
+                    <img src="img4.jpeg" class="image4" alt="image4">
+                    <img src="img2.jpeg" class="image2" alt="image2">
+                    <img src="img3.jpeg" class="image3" alt="image3">
+                    <img src="img6.jpeg" class="image6" alt="image6">
+                </div>
+                <div class="photo">
+                    <img src="img6.jpeg" class="image6" alt="image6">
+                    <img src="img5.jpg"  class="image5" alt="image5">
+                    <img src="img4.jpeg" class="image4" alt="image4">
+                    <img src="img3.jpeg" class="image3" alt="image3">
+                    <img src="img2.jpeg" class="image2" alt="image2">
+                    <img src="img1.jpeg" class="image1" alt="image1">
+                </div>
+            </div>
+           
+           
+            
+        </div>
+    </body>
+</html>
